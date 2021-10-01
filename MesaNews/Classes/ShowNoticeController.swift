@@ -14,7 +14,7 @@ class ShowNoticeController: UIViewController, UITextViewDelegate {
     
     public var Title: String = ""
     public var text: String = ""
-    public var image: UIImage = UIImage(named: "no-Image")!
+    public var image: String = ""
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -22,6 +22,22 @@ class ShowNoticeController: UIViewController, UITextViewDelegate {
         self.textView.delegate = self
         self.lblTitle.text = self.Title
         self.textView.text = self.text
-        self.imageView.image = self.image
+        guard let URLImage = URL(string: self.image) else {return}
+        self.imageView.image = self.getImage(url: URLImage)
+    }
+    
+    //MARK: GET IMAGE NOTICE
+    func getImage(url: URL) -> UIImage {
+        let NoImage = UIImage(named: "no-Image")!
+        
+        guard let data = try? Data(contentsOf: url) else {
+            return NoImage
+        }
+        
+        guard let image = UIImage(data: data) else {
+            return NoImage
+        }
+        
+        return image
     }
 }

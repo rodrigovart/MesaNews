@@ -77,7 +77,6 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     
     // method to run when table view cell is tapped
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        print("aqui")
         self.showNotice()
     }
     
@@ -138,7 +137,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     //MARK: SHOW THE PAGE OF DETAIL NOTICE
     func showNotice() {
         DispatchQueue.main.async {
-//            self.performSegue(withIdentifier: "showNotice", sender: nil)
+            self.performSegue(withIdentifier: "showNotice", sender: nil)
         }
     }
 
