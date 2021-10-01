@@ -1,0 +1,6 @@
+framework module Pods_MesaNews {
+  umbrella header "Pods-MesaNews-umbrella.h"
+
+  export *
+  module * { export * }
+}
