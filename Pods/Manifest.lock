@@ -1,14 +1,18 @@
 PODS:
   - iCarousel (1.8.3)
+  - SnapKit (4.2.0)
   - SVProgressHUD (2.2.6):
     - SVProgressHUD/Core (= 2.2.6)
   - SVProgressHUD/Core (2.2.6)
 
 DEPENDENCIES:
   - iCarousel
+  - SnapKit
   - SVProgressHUD (from `https://github.com/SVProgressHUD/SVProgressHUD.git`)
 
 SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - SnapKit
   trunk:
     - iCarousel
 
@@ -23,8 +27,9 @@ CHECKOUT OPTIONS:
 
 SPEC CHECKSUMS:
   iCarousel: d782f635afac190c49bb8ee455882284cff8b85f
+  SnapKit: fe8a619752f3f27075cc9a90244d75c6c3f27e2a
   SVProgressHUD: de812b4f0e1d65358f0064416473174ae619843f
 
-PODFILE CHECKSUM: d3495b8fefd2cf52c2f6bef998749d84fa1c6d92
+PODFILE CHECKSUM: 463b4a874457605cab1e6e21b5d6c1cb24301afa
 
 COCOAPODS: 1.11.2

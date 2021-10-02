@@ -7,175 +7,174 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		044CC4DE2704B41B00E4CE1A /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044CC4DD2704B41B00E4CE1A /* Data.swift */; };
-		048E9B4B27035E1F00650110 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048E9B4A27035E1F00650110 /* AppDelegate.swift */; };
-		048E9B4D27035E1F00650110 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048E9B4C27035E1F00650110 /* SceneDelegate.swift */; };
-		048E9B4F27035E1F00650110 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048E9B4E27035E1F00650110 /* ViewController.swift */; };
-		048E9B5227035E1F00650110 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 048E9B5027035E1F00650110 /* Main.storyboard */; };
-		048E9B5427035E2100650110 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 048E9B5327035E2100650110 /* Assets.xcassets */; };
-		048E9B5727035E2100650110 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 048E9B5527035E2100650110 /* LaunchScreen.storyboard */; };
-		048E9B6327039E3700650110 /* NoticeM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048E9B6227039E3700650110 /* NoticeM.swift */; };
-		048E9B662703A22400650110 /* NewsProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048E9B652703A22400650110 /* NewsProvider.swift */; };
-		048E9B682703AAA100650110 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048E9B672703AAA100650110 /* Post.swift */; };
-		048E9B6B2703AE1F00650110 /* URLSessionAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048E9B6A2703AE1F00650110 /* URLSessionAdapter.swift */; };
-		048E9B6D2703AECB00650110 /* HttpGet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048E9B6C2703AECB00650110 /* HttpGet.swift */; };
-		048E9B702703B0EF00650110 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048E9B6F2703B0EF00650110 /* Constants.swift */; };
-		04A937FB2706B52E000BF1FB /* HighLightsProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A937FA2706B52E000BF1FB /* HighLightsProvider.swift */; };
-		04A937FD2706BF79000BF1FB /* HighLightsM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A937FC2706BF79000BF1FB /* HighLightsM.swift */; };
-		04F7BADD2705EB6100AECAE0 /* UIimage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F7BADC2705EB6100AECAE0 /* UIimage.swift */; };
-		04F7BADF2706075A00AECAE0 /* ShowNoticeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F7BADE2706075A00AECAE0 /* ShowNoticeController.swift */; };
-		CE5F990657FA8B85F94E47C8 /* Pods_MesaNews.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F263F89BC4B97F81EFA71A7 /* Pods_MesaNews.framework */; };
+		0437ACE427078CBE00E7BF0D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0437ACE327078CBE00E7BF0D /* AppDelegate.swift */; };
+		0437ACE627078CBE00E7BF0D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0437ACE527078CBE00E7BF0D /* SceneDelegate.swift */; };
+		0437ACE827078CBE00E7BF0D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0437ACE727078CBE00E7BF0D /* ViewController.swift */; };
+		0437ACEB27078CBE00E7BF0D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0437ACE927078CBE00E7BF0D /* Main.storyboard */; };
+		0437ACED27078CC100E7BF0D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0437ACEC27078CC100E7BF0D /* Assets.xcassets */; };
+		0437ACF027078CC100E7BF0D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0437ACEE27078CC100E7BF0D /* LaunchScreen.storyboard */; };
+		0437ACFE27078D4B00E7BF0D /* ShowNoticeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0437ACFC27078D4B00E7BF0D /* ShowNoticeController.swift */; };
+		0437AD0E27078D9800E7BF0D /* NoticeM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0437AD0C27078D9800E7BF0D /* NoticeM.swift */; };
+		0437AD0F27078D9800E7BF0D /* HighLightsM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0437AD0D27078D9800E7BF0D /* HighLightsM.swift */; };
+		0437AD1227078DA600E7BF0D /* HighLightsProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0437AD1027078DA600E7BF0D /* HighLightsProvider.swift */; };
+		0437AD1327078DA600E7BF0D /* NewsProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0437AD1127078DA600E7BF0D /* NewsProvider.swift */; };
+		0437AD1627078DB300E7BF0D /* HttpGet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0437AD1427078DB300E7BF0D /* HttpGet.swift */; };
+		0437AD1727078DB300E7BF0D /* URLSessionAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0437AD1527078DB300E7BF0D /* URLSessionAdapter.swift */; };
+		04ACC39B270795F90068A806 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04ACC39A270795F90068A806 /* Constants.swift */; };
+		04ACC39D270796320068A806 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04ACC39C270796320068A806 /* Data.swift */; };
+		04ACC39F270796620068A806 /* UIImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04ACC39E270796620068A806 /* UIImage.swift */; };
+		66D412BF07DB12B8ED68D5F3 /* Pods_MesaNews.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3C9188BA3DB7739F9636D4F /* Pods_MesaNews.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		044CC4DD2704B41B00E4CE1A /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
-		048E9B4727035E1F00650110 /* MesaNews.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MesaNews.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		048E9B4A27035E1F00650110 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		048E9B4C27035E1F00650110 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		048E9B4E27035E1F00650110 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		048E9B5127035E1F00650110 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		048E9B5327035E2100650110 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		048E9B5627035E2100650110 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		048E9B5827035E2100650110 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		048E9B6227039E3700650110 /* NoticeM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoticeM.swift; sourceTree = "<group>"; };
-		048E9B652703A22400650110 /* NewsProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsProvider.swift; sourceTree = "<group>"; };
-		048E9B672703AAA100650110 /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
-		048E9B6A2703AE1F00650110 /* URLSessionAdapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLSessionAdapter.swift; sourceTree = "<group>"; };
-		048E9B6C2703AECB00650110 /* HttpGet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HttpGet.swift; sourceTree = "<group>"; };
-		048E9B6F2703B0EF00650110 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
-		04A937FA2706B52E000BF1FB /* HighLightsProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HighLightsProvider.swift; sourceTree = "<group>"; };
-		04A937FC2706BF79000BF1FB /* HighLightsM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HighLightsM.swift; sourceTree = "<group>"; };
-		04F7BADC2705EB6100AECAE0 /* UIimage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIimage.swift; sourceTree = "<group>"; };
-		04F7BADE2706075A00AECAE0 /* ShowNoticeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowNoticeController.swift; sourceTree = "<group>"; };
-		357DAD2564D9415B7149E08E /* Pods-MesaNews.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MesaNews.release.xcconfig"; path = "Target Support Files/Pods-MesaNews/Pods-MesaNews.release.xcconfig"; sourceTree = "<group>"; };
-		380F7DE0E3A19FEBFEDDD4E0 /* Pods-MesaNews.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MesaNews.debug.xcconfig"; path = "Target Support Files/Pods-MesaNews/Pods-MesaNews.debug.xcconfig"; sourceTree = "<group>"; };
-		9F263F89BC4B97F81EFA71A7 /* Pods_MesaNews.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MesaNews.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0437ACE027078CBE00E7BF0D /* MesaNews.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MesaNews.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0437ACE327078CBE00E7BF0D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0437ACE527078CBE00E7BF0D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		0437ACE727078CBE00E7BF0D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0437ACEA27078CBE00E7BF0D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0437ACEC27078CC100E7BF0D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0437ACEF27078CC100E7BF0D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0437ACF127078CC100E7BF0D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0437ACFC27078D4B00E7BF0D /* ShowNoticeController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ShowNoticeController.swift; path = ../../../../MesaNewsOld/MesaNews/Classes/ShowNoticeController.swift; sourceTree = "<group>"; };
+		0437AD0B27078D7F00E7BF0D /* Montserrat-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-SemiBold.ttf"; sourceTree = "<group>"; };
+		0437AD0C27078D9800E7BF0D /* NoticeM.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NoticeM.swift; path = ../../../../MesaNewsOld/MesaNews/Model/NoticeM.swift; sourceTree = "<group>"; };
+		0437AD0D27078D9800E7BF0D /* HighLightsM.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HighLightsM.swift; path = ../../../../MesaNewsOld/MesaNews/Model/HighLightsM.swift; sourceTree = "<group>"; };
+		0437AD1027078DA600E7BF0D /* HighLightsProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HighLightsProvider.swift; path = ../../../../MesaNewsOld/MesaNews/Provider/HighLightsProvider.swift; sourceTree = "<group>"; };
+		0437AD1127078DA600E7BF0D /* NewsProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NewsProvider.swift; path = ../../../../MesaNewsOld/MesaNews/Provider/NewsProvider.swift; sourceTree = "<group>"; };
+		0437AD1427078DB300E7BF0D /* HttpGet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HttpGet.swift; path = ../../../../MesaNewsOld/MesaNews/Service/HttpGet.swift; sourceTree = "<group>"; };
+		0437AD1527078DB300E7BF0D /* URLSessionAdapter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = URLSessionAdapter.swift; path = ../../../../MesaNewsOld/MesaNews/Service/URLSessionAdapter.swift; sourceTree = "<group>"; };
+		04ACC39A270795F90068A806 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		04ACC39C270796320068A806 /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		04ACC39E270796620068A806 /* UIImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImage.swift; sourceTree = "<group>"; };
+		202664253C12861D8F51B157 /* Pods-MesaNews.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MesaNews.debug.xcconfig"; path = "Target Support Files/Pods-MesaNews/Pods-MesaNews.debug.xcconfig"; sourceTree = "<group>"; };
+		7E367680900AAC7BE5A61C92 /* Pods-MesaNews.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MesaNews.release.xcconfig"; path = "Target Support Files/Pods-MesaNews/Pods-MesaNews.release.xcconfig"; sourceTree = "<group>"; };
+		F3C9188BA3DB7739F9636D4F /* Pods_MesaNews.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MesaNews.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		048E9B4427035E1F00650110 /* Frameworks */ = {
+		0437ACDD27078CBE00E7BF0D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CE5F990657FA8B85F94E47C8 /* Pods_MesaNews.framework in Frameworks */,
+				66D412BF07DB12B8ED68D5F3 /* Pods_MesaNews.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		044CC4DC2704B40300E4CE1A /* Extension */ = {
+		0437ACD727078CBE00E7BF0D = {
 			isa = PBXGroup;
 			children = (
-				044CC4DD2704B41B00E4CE1A /* Data.swift */,
-				04F7BADC2705EB6100AECAE0 /* UIimage.swift */,
-			);
-			path = Extension;
-			sourceTree = "<group>";
-		};
-		048E9B3E27035E1F00650110 = {
-			isa = PBXGroup;
-			children = (
-				048E9B4927035E1F00650110 /* MesaNews */,
-				048E9B4827035E1F00650110 /* Products */,
-				A300E45C92E50AF7174F1D92 /* Pods */,
-				39C0E97B7A0A888AC2C1CFB8 /* Frameworks */,
+				0437ACE227078CBE00E7BF0D /* MesaNews */,
+				0437ACE127078CBE00E7BF0D /* Products */,
+				CC91728E0C73C0D6FE8D3F9E /* Pods */,
+				9BD297D5EBC51DBBABF1CF7A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
-		048E9B4827035E1F00650110 /* Products */ = {
+		0437ACE127078CBE00E7BF0D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				048E9B4727035E1F00650110 /* MesaNews.app */,
+				0437ACE027078CBE00E7BF0D /* MesaNews.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		048E9B4927035E1F00650110 /* MesaNews */ = {
+		0437ACE227078CBE00E7BF0D /* MesaNews */ = {
 			isa = PBXGroup;
 			children = (
-				048E9B6E2703B0D500650110 /* Helper */,
-				048E9B692703ADF800650110 /* Service */,
-				048E9B642703A1FD00650110 /* Provider */,
-				048E9B6127039CD300650110 /* Model */,
-				048E9B5E2703965800650110 /* Classes */,
-				048E9B4A27035E1F00650110 /* AppDelegate.swift */,
-				048E9B4C27035E1F00650110 /* SceneDelegate.swift */,
-				048E9B4E27035E1F00650110 /* ViewController.swift */,
-				048E9B5027035E1F00650110 /* Main.storyboard */,
-				048E9B5327035E2100650110 /* Assets.xcassets */,
-				048E9B5527035E2100650110 /* LaunchScreen.storyboard */,
-				048E9B5827035E2100650110 /* Info.plist */,
+				0437ACFB27078D1C00E7BF0D /* Service */,
+				0437ACFA27078D1200E7BF0D /* Provider */,
+				0437ACF927078D0600E7BF0D /* Model */,
+				0437ACF827078CFA00E7BF0D /* Helper */,
+				0437ACF727078CED00E7BF0D /* Classes */,
+				0437ACE327078CBE00E7BF0D /* AppDelegate.swift */,
+				0437ACE527078CBE00E7BF0D /* SceneDelegate.swift */,
+				0437ACE727078CBE00E7BF0D /* ViewController.swift */,
+				0437ACE927078CBE00E7BF0D /* Main.storyboard */,
+				0437ACEC27078CC100E7BF0D /* Assets.xcassets */,
+				0437ACEE27078CC100E7BF0D /* LaunchScreen.storyboard */,
+				0437ACF127078CC100E7BF0D /* Info.plist */,
 			);
 			path = MesaNews;
 			sourceTree = "<group>";
 		};
-		048E9B5E2703965800650110 /* Classes */ = {
+		0437ACF727078CED00E7BF0D /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				048E9B672703AAA100650110 /* Post.swift */,
-				04F7BADE2706075A00AECAE0 /* ShowNoticeController.swift */,
+				0437ACFC27078D4B00E7BF0D /* ShowNoticeController.swift */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
 		};
-		048E9B6127039CD300650110 /* Model */ = {
+		0437ACF827078CFA00E7BF0D /* Helper */ = {
 			isa = PBXGroup;
 			children = (
-				048E9B6227039E3700650110 /* NoticeM.swift */,
-				04A937FC2706BF79000BF1FB /* HighLightsM.swift */,
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
-		048E9B642703A1FD00650110 /* Provider */ = {
-			isa = PBXGroup;
-			children = (
-				048E9B652703A22400650110 /* NewsProvider.swift */,
-				04A937FA2706B52E000BF1FB /* HighLightsProvider.swift */,
-			);
-			path = Provider;
-			sourceTree = "<group>";
-		};
-		048E9B692703ADF800650110 /* Service */ = {
-			isa = PBXGroup;
-			children = (
-				048E9B6A2703AE1F00650110 /* URLSessionAdapter.swift */,
-				048E9B6C2703AECB00650110 /* HttpGet.swift */,
-			);
-			path = Service;
-			sourceTree = "<group>";
-		};
-		048E9B6E2703B0D500650110 /* Helper */ = {
-			isa = PBXGroup;
-			children = (
-				04B60E2D27057F2D00A9DA4C /* Fonts */,
-				044CC4DC2704B40300E4CE1A /* Extension */,
-				048E9B6F2703B0EF00650110 /* Constants.swift */,
+				04ACC39A270795F90068A806 /* Constants.swift */,
 			);
 			path = Helper;
 			sourceTree = "<group>";
 		};
-		04B60E2D27057F2D00A9DA4C /* Fonts */ = {
+		0437ACF927078D0600E7BF0D /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				0437AD0D27078D9800E7BF0D /* HighLightsM.swift */,
+				0437AD0C27078D9800E7BF0D /* NoticeM.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0437ACFA27078D1200E7BF0D /* Provider */ = {
+			isa = PBXGroup;
+			children = (
+				0437AD1027078DA600E7BF0D /* HighLightsProvider.swift */,
+				0437AD1127078DA600E7BF0D /* NewsProvider.swift */,
+			);
+			path = Provider;
+			sourceTree = "<group>";
+		};
+		0437ACFB27078D1C00E7BF0D /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				0437AD1427078DB300E7BF0D /* HttpGet.swift */,
+				0437AD1527078DB300E7BF0D /* URLSessionAdapter.swift */,
+				0437AD0727078D7E00E7BF0D /* Extension */,
+				0437AD0A27078D7F00E7BF0D /* Fonts */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		0437AD0727078D7E00E7BF0D /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				04ACC39C270796320068A806 /* Data.swift */,
+				04ACC39E270796620068A806 /* UIImage.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		0437AD0A27078D7F00E7BF0D /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				0437AD0B27078D7F00E7BF0D /* Montserrat-SemiBold.ttf */,
 			);
 			path = Fonts;
 			sourceTree = "<group>";
 		};
-		39C0E97B7A0A888AC2C1CFB8 /* Frameworks */ = {
+		9BD297D5EBC51DBBABF1CF7A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				9F263F89BC4B97F81EFA71A7 /* Pods_MesaNews.framework */,
+				F3C9188BA3DB7739F9636D4F /* Pods_MesaNews.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		A300E45C92E50AF7174F1D92 /* Pods */ = {
+		CC91728E0C73C0D6FE8D3F9E /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				380F7DE0E3A19FEBFEDDD4E0 /* Pods-MesaNews.debug.xcconfig */,
-				357DAD2564D9415B7149E08E /* Pods-MesaNews.release.xcconfig */,
+				202664253C12861D8F51B157 /* Pods-MesaNews.debug.xcconfig */,
+				7E367680900AAC7BE5A61C92 /* Pods-MesaNews.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -183,15 +182,15 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		048E9B4627035E1F00650110 /* MesaNews */ = {
+		0437ACDF27078CBE00E7BF0D /* MesaNews */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 048E9B5B27035E2100650110 /* Build configuration list for PBXNativeTarget "MesaNews" */;
+			buildConfigurationList = 0437ACF427078CC100E7BF0D /* Build configuration list for PBXNativeTarget "MesaNews" */;
 			buildPhases = (
-				1F385A78A49929D5CBA28E9D /* [CP] Check Pods Manifest.lock */,
-				048E9B4327035E1F00650110 /* Sources */,
-				048E9B4427035E1F00650110 /* Frameworks */,
-				048E9B4527035E1F00650110 /* Resources */,
-				A63ADFAB7D6D547EB5B6BEE6 /* [CP] Embed Pods Frameworks */,
+				F699F06E3C53513F8EA1A766 /* [CP] Check Pods Manifest.lock */,
+				0437ACDC27078CBE00E7BF0D /* Sources */,
+				0437ACDD27078CBE00E7BF0D /* Frameworks */,
+				0437ACDE27078CBE00E7BF0D /* Resources */,
+				04C900593308113061EAB149 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -199,25 +198,25 @@
 			);
 			name = MesaNews;
 			productName = MesaNews;
-			productReference = 048E9B4727035E1F00650110 /* MesaNews.app */;
+			productReference = 0437ACE027078CBE00E7BF0D /* MesaNews.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		048E9B3F27035E1F00650110 /* Project object */ = {
+		0437ACD827078CBE00E7BF0D /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1300;
 				LastUpgradeCheck = 1300;
 				TargetAttributes = {
-					048E9B4627035E1F00650110 = {
+					0437ACDF27078CBE00E7BF0D = {
 						CreatedOnToolsVersion = 13.0;
 					};
 				};
 			};
-			buildConfigurationList = 048E9B4227035E1F00650110 /* Build configuration list for PBXProject "MesaNews" */;
+			buildConfigurationList = 0437ACDB27078CBE00E7BF0D /* Build configuration list for PBXProject "MesaNews" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -225,31 +224,48 @@
 				en,
 				Base,
 			);
-			mainGroup = 048E9B3E27035E1F00650110;
-			productRefGroup = 048E9B4827035E1F00650110 /* Products */;
+			mainGroup = 0437ACD727078CBE00E7BF0D;
+			productRefGroup = 0437ACE127078CBE00E7BF0D /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				048E9B4627035E1F00650110 /* MesaNews */,
+				0437ACDF27078CBE00E7BF0D /* MesaNews */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		048E9B4527035E1F00650110 /* Resources */ = {
+		0437ACDE27078CBE00E7BF0D /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				048E9B5727035E2100650110 /* LaunchScreen.storyboard in Resources */,
-				048E9B5427035E2100650110 /* Assets.xcassets in Resources */,
-				048E9B5227035E1F00650110 /* Main.storyboard in Resources */,
+				0437ACF027078CC100E7BF0D /* LaunchScreen.storyboard in Resources */,
+				0437ACED27078CC100E7BF0D /* Assets.xcassets in Resources */,
+				0437ACEB27078CBE00E7BF0D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		1F385A78A49929D5CBA28E9D /* [CP] Check Pods Manifest.lock */ = {
+		04C900593308113061EAB149 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MesaNews/Pods-MesaNews-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MesaNews/Pods-MesaNews-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MesaNews/Pods-MesaNews-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F699F06E3C53513F8EA1A766 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -271,62 +287,44 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		A63ADFAB7D6D547EB5B6BEE6 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-MesaNews/Pods-MesaNews-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-MesaNews/Pods-MesaNews-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MesaNews/Pods-MesaNews-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		048E9B4327035E1F00650110 /* Sources */ = {
+		0437ACDC27078CBE00E7BF0D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				048E9B4F27035E1F00650110 /* ViewController.swift in Sources */,
-				048E9B662703A22400650110 /* NewsProvider.swift in Sources */,
-				04A937FD2706BF79000BF1FB /* HighLightsM.swift in Sources */,
-				048E9B6B2703AE1F00650110 /* URLSessionAdapter.swift in Sources */,
-				048E9B6327039E3700650110 /* NoticeM.swift in Sources */,
-				048E9B4B27035E1F00650110 /* AppDelegate.swift in Sources */,
-				048E9B702703B0EF00650110 /* Constants.swift in Sources */,
-				04A937FB2706B52E000BF1FB /* HighLightsProvider.swift in Sources */,
-				048E9B4D27035E1F00650110 /* SceneDelegate.swift in Sources */,
-				048E9B6D2703AECB00650110 /* HttpGet.swift in Sources */,
-				048E9B682703AAA100650110 /* Post.swift in Sources */,
-				04F7BADF2706075A00AECAE0 /* ShowNoticeController.swift in Sources */,
-				04F7BADD2705EB6100AECAE0 /* UIimage.swift in Sources */,
-				044CC4DE2704B41B00E4CE1A /* Data.swift in Sources */,
+				0437AD1227078DA600E7BF0D /* HighLightsProvider.swift in Sources */,
+				04ACC39B270795F90068A806 /* Constants.swift in Sources */,
+				0437AD0F27078D9800E7BF0D /* HighLightsM.swift in Sources */,
+				0437ACFE27078D4B00E7BF0D /* ShowNoticeController.swift in Sources */,
+				0437AD0E27078D9800E7BF0D /* NoticeM.swift in Sources */,
+				0437ACE827078CBE00E7BF0D /* ViewController.swift in Sources */,
+				0437AD1327078DA600E7BF0D /* NewsProvider.swift in Sources */,
+				04ACC39D270796320068A806 /* Data.swift in Sources */,
+				0437AD1627078DB300E7BF0D /* HttpGet.swift in Sources */,
+				0437ACE427078CBE00E7BF0D /* AppDelegate.swift in Sources */,
+				0437AD1727078DB300E7BF0D /* URLSessionAdapter.swift in Sources */,
+				04ACC39F270796620068A806 /* UIImage.swift in Sources */,
+				0437ACE627078CBE00E7BF0D /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		048E9B5027035E1F00650110 /* Main.storyboard */ = {
+		0437ACE927078CBE00E7BF0D /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				048E9B5127035E1F00650110 /* Base */,
+				0437ACEA27078CBE00E7BF0D /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		048E9B5527035E2100650110 /* LaunchScreen.storyboard */ = {
+		0437ACEE27078CC100E7BF0D /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				048E9B5627035E2100650110 /* Base */,
+				0437ACEF27078CC100E7BF0D /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -334,7 +332,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		048E9B5927035E2100650110 /* Debug */ = {
+		0437ACF227078CC100E7BF0D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -395,7 +393,7 @@
 			};
 			name = Debug;
 		};
-		048E9B5A27035E2100650110 /* Release */ = {
+		0437ACF327078CC100E7BF0D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -450,9 +448,9 @@
 			};
 			name = Release;
 		};
-		048E9B5C27035E2100650110 /* Debug */ = {
+		0437ACF527078CC100E7BF0D /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 380F7DE0E3A19FEBFEDDD4E0 /* Pods-MesaNews.debug.xcconfig */;
+			baseConfigurationReference = 202664253C12861D8F51B157 /* Pods-MesaNews.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -462,10 +460,10 @@
 				INFOPLIST_FILE = MesaNews/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -479,9 +477,9 @@
 			};
 			name = Debug;
 		};
-		048E9B5D27035E2100650110 /* Release */ = {
+		0437ACF627078CC100E7BF0D /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 357DAD2564D9415B7149E08E /* Pods-MesaNews.release.xcconfig */;
+			baseConfigurationReference = 7E367680900AAC7BE5A61C92 /* Pods-MesaNews.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -491,10 +489,10 @@
 				INFOPLIST_FILE = MesaNews/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -511,25 +509,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		048E9B4227035E1F00650110 /* Build configuration list for PBXProject "MesaNews" */ = {
+		0437ACDB27078CBE00E7BF0D /* Build configuration list for PBXProject "MesaNews" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				048E9B5927035E2100650110 /* Debug */,
-				048E9B5A27035E2100650110 /* Release */,
+				0437ACF227078CC100E7BF0D /* Debug */,
+				0437ACF327078CC100E7BF0D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		048E9B5B27035E2100650110 /* Build configuration list for PBXNativeTarget "MesaNews" */ = {
+		0437ACF427078CC100E7BF0D /* Build configuration list for PBXNativeTarget "MesaNews" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				048E9B5C27035E2100650110 /* Debug */,
-				048E9B5D27035E2100650110 /* Release */,
+				0437ACF527078CC100E7BF0D /* Debug */,
+				0437ACF627078CC100E7BF0D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 048E9B3F27035E1F00650110 /* Project object */;
+	rootObject = 0437ACD827078CBE00E7BF0D /* Project object */;
 }
